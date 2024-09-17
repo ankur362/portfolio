@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap");
+html {
+  font-size: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  background-color: rgb(180, 177, 177);
+  width: 15vw;
+  height: 100vh;
+  font-family: "Fira Sans", sans-serif;
+}
+.sidebar nav {
+  padding: 2.4rem;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 2.2rem;
+  padding: 18px;
+}
+.sidebar nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.main {
+  /* background-color: yellow; */
+  width: 85vw;
+}
+.container {
+  display: flex;
+}
+.infoContainer {
+  /* background-color: rgb(196, 13, 83); */
+  height: 65vh;
+  width: 80vw;
+  margin: 135px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.devInfo {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  font-family: "Source Code Pro", monospace;
+}
+.devPic img {
+  height: 65vh;
+}
+.hello {
+  font-size: 60px;
+}
+.name {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Fira Sans", sans-serif;
+}
+.about {
+  font-size: 25px;
+}
+.aboutMore{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Fira Sans", sans-serif;
+}
+.buttons {
+    margin-top: 25px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+    background:dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0px 2px;
+
+}
+.btn:hover{
+    background-color:white ;
+    color: dodgerblue;
+    transform: scale(1.02);
+}
+
+
+/* Contact Me stylesheets */
+.contactForm{
+    color: black;
+    font-family: "Fira Sans", sans-serif;
+    padding: 0px 40px;
+    padding-top: 128px;
+}
+
+.contactForm h1{
+    font-family: "Source Code Pro", monospace;
+    font-size: 3.2rem;
+}
+.contactheading{
+  /* padding-left: 122px; */
+  text-align: center;
+  margin-bottom: 30px;
+}
+.contactForm form div label{
+  font-size: 1.8rem;
+}
+.contactForm form div{
+  padding:10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+#checkbox{
+  flex-direction: row;
+}
+#checkbox input{
+  width: 3.2rem;
+}
+.contactForm form div input{
+  width: 15vw;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 2px;
+}
+
+#emailHelp{
+  font-size: 1rem;
+  color: dodgerblue;
+  margin: 0 5px;
+}
+/* .contactForm form button{
+  font-size: 1.4rem;
+  padding: 7px;
+  width: 9.2rem;
+  border-radius: 9px;
+} */
+.btn-sm{
+  padding: 8px;
+  width: 9.8rem;
+}
+
+/* blog stylesheet */
+.blogItem{
+  margin: 30px;
+  font-family: "Fira Sans", sans-serif;
+}
+.blogItem h2{
+  font-size: 2.2rem;
+}
+.blogItem p{
+  font-size: 1.4rem;
+  margin: 5px 0;
+}
+
+.blogContainer{}
+.blogContainer h1{
+  font-size: 3.2rem;
+  font-family: "Source Code Pro", monospace;
+  margin: 20px;
+}
+.blog-btn{
+  border-radius: 8px;
+  width: 11.6rem;
+  height: 3.8rem;
+}
+
+/* my Intro stylesheets */
+.myIntroContainer{}
+.myIntroContainer h1{
+  font-size: 4.4rem;
+  margin: 20px;
+  margin-bottom: 5px;
+  font-family: "Source Code Pro", monospace;
+}
+.myIntroContainer p{
+  font-size: 2.2rem;
+  margin: 30px;
+  margin-top: 5px;
+  font-family: "Fira Sans", sans-serif;
+}
+.myIntroContainer h2{
+  font-size: 2.8rem;
+  margin: 40px;
+  margin-bottom: 5px;
+  font-family: "Fira Sans", sans-serif;
+}
+.skillContainer{
+  margin: 40px;
+  margin-top: 5px;
+}
+.skillItems {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.skillper{
+  width: 200px;
+  height: 30px;
+
+}
+.blue{
+  background-color: blue;
+}
+.green{
+  background-color: greenyellow;
+} 
+.yellow{
+  background-color: yellow;
+} 
+.skillItems label{
+  font-size: 1.6rem;
+  width: 100px;
+ 
+}
+.skillContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* flex-direction: column; */
+}
+progress::-webkit-progress-value{
+  /* background-color: #eeeeee; */
+  background: blue;
+}
